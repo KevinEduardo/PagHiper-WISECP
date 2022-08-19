@@ -1,0 +1,5 @@
+{
+    "require": {
+        "rexlabs/hyper-http": "^2.6"
+    }
+}

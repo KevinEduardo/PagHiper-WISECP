@@ -1,0 +1,39 @@
+{
+  "name": "rexlabs/utility-belt",
+  "description": "A set of helpful utilities for working with data, collections (arrays of arrays) and arrays in php",
+  "keywords":["collection","filter","array","dot read","nested read","dot syntax", "map recursive","utility","utilities"],
+  "autoload": {
+    "psr-4":{
+      "Rexlabs\\UtilityBelt\\":"src/"
+    }
+  },
+  "autoload-dev":{
+    "psr-4":{
+      "Rexlabs\\UtilityBelt\\Tests\\":"tests/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "stable",
+  "require":{
+    "php" : "^7.0"
+  },
+  "require-dev":{
+    "phpunit/phpunit": "^6.5",
+    "satooshi/php-coveralls": "^2.0"
+  },
+  "scripts":{
+    "coverage":"phpunit --coverage-html ./report",
+    "test":"phpunit",
+    "tests":"phpunit"
+  },
+  "license":"MIT",
+  "authors":[
+    {
+      "name": "Alex Babkov",
+      "email": "alex.babkov@rexsoftware.com.au",
+      "role": "Developer"
+    }
+  ]
+}

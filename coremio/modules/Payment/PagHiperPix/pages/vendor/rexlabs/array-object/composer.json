@@ -1,0 +1,52 @@
+{
+  "name": "rexlabs/array-object",
+  "description": "Provides an interface for simplifying working with associative and sequential arrays (collections).",
+  "keywords": [
+    "array",
+    "object",
+    "arrays",
+    "interface",
+    "fluent",
+    "collection",
+    "collections",
+    "queue",
+    "stack",
+    "iterator",
+    "magic"
+  ],
+  "type": "library",
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.0",
+    "rexlabs/utility-belt": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rexlabs\\ArrayObject\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Rexlabs\\ArrayObject\\Test\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "tests": "phpunit --colors=always",
+    "coverage": "phpunit --coverage-html ./tests/report"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jodie Dunlop",
+      "email": "jodie.dunlop@rexsoftware.com.au",
+      "role": "Developer"
+    }
+  ]
+}
